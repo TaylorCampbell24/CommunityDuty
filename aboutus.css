@@ -5,7 +5,7 @@
   grid-template-areas: "Shannon . Taylor ." ". . . ." "Kamiya . Michele .";
 }
 
-.Shannon { grid-area: Shannon; border-color: grey; border-radius: 5%;}
+.Shannon { grid-area: Shannon; border: 1px solid grey; border-radius: 5%;}
 
 .Taylor { grid-area: Taylor; border-color: grey; border-radius: 5%;}
 
