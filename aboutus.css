@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.8fr 0.1fr 1.9fr 0.3fr;
+  grid-template-rows: 1.6fr 0.1fr 1.5fr;
+  grid-template-areas: "Shannon . Taylor ." ". . . ." "Kamiya . Michele .";
+}
+
+.Shannon { grid-area: Shannon; border-color: grey; border-radius: 5%;}
+
+.Taylor { grid-area: Taylor; border-color: grey; border-radius: 5%;}
+
+.Kamiya { grid-area: Kamiya; border-color: grey; border-radius: 5%;}
+
+.Michele { grid-area: Michele; border-color: grey; border-radius: 5%;}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

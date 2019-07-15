@@ -1,0 +1,38 @@
+.grid-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 2fr 4.5fr 0.1fr 1fr;
+  grid-template-rows: 2.1fr 0.1fr 1.1fr;
+  grid-template-areas: "org opportunities opportunities opportunities" ". . . ." "about gallery gallery gallery";
+  border-radius: 10px;
+  /*border-style: solid;*/
+}
+
+
+.container {background-color: white}
+
+.org { grid-area: org;}
+
+
+.about { grid-area: about; /*border-style: solid;*/ border-color: grey; border-radius: 5%; /*background-color: lightgrey;*/}
+
+.opportunities { grid-area: opportunities; /*border-style: solid;*/ border-color: grey; border-radius: 5%;  /*background-color: lightgrey;*/}
+
+.gallery { grid-area: gallery; /*border-style: solid;*/ border-color: grey; border-radius: 5%; /* background-color: lightgrey;*/}
+
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.image-blurred-edge {
+    /*background-image: url('http://lorempixel.com/200/200/city/9');
+    width: 200px;
+    height: 200px;*/
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+    clip-path: circle(60px at center);
+}
+
+/*img {
+  border-radius: 40%;
+}

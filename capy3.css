@@ -1,0 +1,117 @@
+.canopy{
+  position: relative;
+  display: grid;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.profilePic{
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  top: 40%;
+  height:400px;
+  width: 400px;
+  overflow: auto;
+  margin-left: 10px;
+}
+
+.bot_right{
+  position: absolute;
+  top: 0%;
+  left: 400px;
+  font-size: 100px;
+  overflow:hidden;
+  color: white;
+}
+
+.bg{
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: white;
+}
+
+html{
+  background-color: teal;
+}
+
+
+.about{
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: thin;
+  padding: 5px;
+  margin: 60px 10px;
+  position: absolute;
+  top: 105%;
+  left: 2%;
+  right: 69%;
+  color: #14171a;
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+  overflow:hidden;
+}
+
+.opport{
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: thin;
+  padding: 5px;
+  margin: 60px 10px;
+  position: absolute;
+  top: 89%;
+  left: 32%;
+  right: 0%;
+  word-wrap: break-word;
+  overflow:hidden;
+}
+
+.opp1{
+  background-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: thin;
+}
+
+.oppHead{
+  padding: 20px 5px 10px 60px;
+  margin: 0px;
+  text-align: left;
+  text-decoration: overline underline;
+  text-decoration-color: #14171a;
+  color: blue;
+}
+
+.tags{
+  padding: 0px 0px 0px 30px;
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.descript{
+  font-size: 14px;
+  padding: 5px 0px 0px 30px;
+}
+
+
+.bttn{
+  margin-left: 30px;
+  background-color: lightgrey;
+  color: teal;
+}
