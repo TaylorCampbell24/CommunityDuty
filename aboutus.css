@@ -5,13 +5,18 @@
   grid-template-areas: "Shannon . Taylor ." ". . . ." "Kamiya . Michele .";
 }
 
-.Shannon { grid-area: Shannon; border: 1px solid grey; border-radius: 5%;}
+.boxx{
+  border: 1px solid grey;
+  border-radius: 5%;
+}
 
-.Taylor { grid-area: Taylor; border-color: grey; border-radius: 5%;}
+.Shannon { grid-area: Shannon; }
 
-.Kamiya { grid-area: Kamiya; border-color: grey; border-radius: 5%;}
+.Taylor { grid-area: Taylor; }
 
-.Michele { grid-area: Michele; border-color: grey; border-radius: 5%;}
+.Kamiya { grid-area: Kamiya;}
+
+.Michele { grid-area: Michele; }
 
 .container {
   display: flex; /* or inline-flex */
