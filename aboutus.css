@@ -5,6 +5,10 @@
   grid-template-areas: "Shannon . Taylor ." ". . . ." "Kamiya . Michele .";
 }
 
+
+html{
+ display: block; 
+}
 .boxx{
   border: 1px solid grey;
   border-radius: 5%;
@@ -13,16 +17,20 @@
 
 .Shannon { grid-area: Shannon; 
   align: "right";
+  display: block;
 }
 
 .Taylor { grid-area: Taylor; 
-align: "right";}
+align: "right";
+display: block;}
 
 .Kamiya { grid-area: Kamiya;
-align: "right";}
+align: "right";
+display: block;}
 
 .Michele { grid-area: Michele;
-align: "right";}
+align: "right";
+display: block;}
 
 .container {
   display: flex; /* or inline-flex */
