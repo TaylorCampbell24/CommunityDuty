@@ -8,15 +8,21 @@
 .boxx{
   border: 1px solid grey;
   border-radius: 5%;
+  margins: 10px;
 }
 
-.Shannon { grid-area: Shannon; }
+.Shannon { grid-area: Shannon; 
+  align: "right";
+}
 
-.Taylor { grid-area: Taylor; }
+.Taylor { grid-area: Taylor; 
+align: "right";}
 
-.Kamiya { grid-area: Kamiya;}
+.Kamiya { grid-area: Kamiya;
+align: "right";}
 
-.Michele { grid-area: Michele; }
+.Michele { grid-area: Michele;
+align: "right";}
 
 .container {
   display: flex; /* or inline-flex */
