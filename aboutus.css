@@ -3,37 +3,70 @@
   grid-template-columns: 1.8fr 0.1fr 1.9fr 0.3fr;
   grid-template-rows: 1.6fr 0.1fr 1.5fr;
   grid-template-areas: "Shannon . Taylor ." ". . . ." "Kamiya . Michele .";
+  background-color: lightgrey;
 }
 
 
 html{
- display: block; 
+ display: block;
+ background-color: lightgrey;
 }
 .boxx{
   border: 1px solid grey;
   border-radius: 5%;
-  margins: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
-.Shannon { grid-area: Shannon; 
+h1{
+background-image: url("floral3.jpg");
+  text-decoration: overline underline;
+}
+
+img{
+  float:left;
+  width:10%;
+  overflow: hidden;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.Shannon { grid-area: Shannon;
   align: "right";
   display: block;
 }
 
-.Taylor { grid-area: Taylor; 
+.s{
+text-decoration: underline double #4c2b00;
+}
+
+.Taylor { grid-area: Taylor;
 align: "right";
 display: block;}
 
+.t{
+  text-decoration: underline dashed #e5889d;
+}
+
 .Kamiya { grid-area: Kamiya;
-align: "right";
-display: block;}
+align: "right";}
+
+.k{
+    text-decoration: underline wavy #bca640;
+}
 
 .Michele { grid-area: Michele;
 align: "right";
 display: block;}
 
+.m{
+    text-decoration: underline dotted #fdadb8;
+}
+
 .container {
-  display: flex; /* or inline-flex */
+  display: block; /* or inline-flex */
 }
 
 .rotateimg90 {
